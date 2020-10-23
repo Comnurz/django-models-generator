@@ -1,0 +1,23 @@
+{
+  "dbType": "psql",
+  "databases": [{
+    "dbName": "User",
+    "dbColumns": [{
+      "name": {
+        "type": "char",
+        "maximumLen": 20,
+        "minimumLen": 10
+      },
+      "surName": {
+        "type": "char",
+        "maximumLen": 20,
+        "minimumLen": 10
+      },
+      "title": {
+        "type": "char",
+        "maximumLen": 20,
+        "minimumLen": 10
+      }
+    }]
+  }]
+}
